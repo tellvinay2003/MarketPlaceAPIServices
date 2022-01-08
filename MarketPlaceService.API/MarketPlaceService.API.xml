@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MarketPlaceService.API</name>
+    </assembly>
+    <members>
+        <member name="M:MarketPlaceService.API.Controllers.BookingController.GetMpPublisherBookingInfo(MarketPlaceService.Entities.Booking.GetMpBookingInfoRequest)">
+            <summary>
+            Returns a list of publisher booking(sitebooking) records for a particular subscriber booking(marketeplacebooking)
+            </summary>
+            <param name="request">
+            MarketPlace booking id needs to be passed as BookingId
+            
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.BookingController.GetMpSubscriberBookingHistoryInfo(MarketPlaceService.Entities.Booking.GetMpBookingHistoryInfoRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.BookingController.GetMpPublisherBookingHistoryInfo(MarketPlaceService.Entities.Booking.GetMpBookingHistoryInfoRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.MasterDataGeolocationController.GetMasterDataGeolocations(System.String)">
+            <summary>
+            Gets Geo locations from MarketPlace DB
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishedProductsController.PublishProduct(MarketPlaceService.Entities.PublishedProductsDataModel)">
+            <summary>
+            Publish Product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.GetRegisteredPublishers">
+            <summary>
+            Get list of all publishers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.GetPublisherById(System.Guid)">
+            <summary>
+            Get specific publisher details by PublisherId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.AddNewPublisher(MarketPlaceService.Entities.PublisherDataModel,Microsoft.AspNetCore.Mvc.ApiVersion)">
+            <summary>
+            Create new publisher
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.UpdatePublisher(MarketPlaceService.Entities.PublisherDataModel)">
+            <summary>
+            Update existing publisher details by PublisherId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.DeletePublisher(System.Guid)">
+            <summary>
+            Delete existing publisher by PublisherId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>       
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.PublishersController.SearchProduct(System.Int32,System.Int32,System.String,System.Guid,System.Nullable{System.Int32},MarketPlaceService.Entities.ProductType)">
+            <summary>
+            Get list of all unpublished products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.GetRegisteredSites">
+            <summary>
+            Get list of all Sites
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.GetEnableSites">
+            <summary>
+            Get list of all Sites
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.GetSiteById(System.Guid)">
+            <summary>
+            Get specific Site details by SiteId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.AddNewSite(MarketPlaceService.Entities.SiteDataModel,Microsoft.AspNetCore.Mvc.ApiVersion)">
+            <summary>
+            Create new Site
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.DeleteSiteById(System.Guid)">
+            <summary>
+            Delete Site
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.UpdateSite(MarketPlaceService.Entities.SiteDataModel)">
+            <summary>
+            Update Site
+            </summary>
+            <param name="siteData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SitesController.ValidateSite(System.String)">
+            <summary>
+            Validate Site
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.GetRegisteredSubscribers">
+            <summary>
+            Get list of all publishers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.DeleteSubscriberById(System.Guid)">
+            <summary>
+            Delete Subscriber by subscriberId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.GetSubscriberById(System.Guid)">
+            <summary>
+            Edit Subscriber by SubscriberId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.AddNewSubscriber(MarketPlaceService.Entities.SubscriberDataModel,Microsoft.AspNetCore.Mvc.ApiVersion)">
+            <summary>
+            Create new Subscriber
+            </summary>
+            <param name="SubscriberItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.UpdateSubscriber(MarketPlaceService.Entities.SubscriberDataModel)">
+            <summary>
+            update Subscriber
+            </summary>
+            <param name="SubscriberItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.GetEnabledSubscribers">
+            <summary>
+            Get list of enabled Subscribers
+            </summary>
+            <returns></returns>  
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.SubscribersController.GetSupplierMapSubscriberById(System.Guid)">
+            <summary>
+            Functionality to fetch list of publisher id and supplierid stored against the subscriber
+            </summary>
+            <param name="SubscriberId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TokenController.GenerateToken">
+            <summary>
+            Generate sample token
+            </summary>       
+            <returns>Generated token</returns>        
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TokenController.ValidateToken(System.String)">
+            <summary>
+            Validate sample token
+            </summary>
+            <param name="token">Token for validation</param>
+            <returns>Token validation status</returns>        
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TravelStudioController.GetAllSupplierStatuses(System.Guid,MarketPlaceService.Entities.EntityType)">
+            <summary>
+            Get list of all supplier statuses
+            </summary>
+            <param name="entityId"></param>
+            <param name="entityType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TravelStudioController.GetSupplierStatusById(System.Guid,MarketPlaceService.Entities.EntityType,System.Int32)">
+            <summary>
+            Get supplier status name by supplier status id
+            </summary>
+            <param name="publisherId"></param>
+            <param name="supplierStatusId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TravelStudioController.GetServiceTypes(System.Guid,MarketPlaceService.Entities.EntityType)">
+            <summary>
+            Get list of all service types
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TravelStudioController.GetOrganization(System.Guid,MarketPlaceService.Entities.EntityType)">
+            <summary>
+            Get specific publisher details by PublisherId
+            </summary>
+            <param name="entityId"></param>
+            <param name="entityType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MarketPlaceService.API.Controllers.TravelStudioController.GetServiceTypeTypes(System.Guid,MarketPlaceService.Entities.EntityType)">
+            <summary>
+            Get service type types
+            </summary>
+            <param name="entityId"></param>
+            <param name="entityType"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

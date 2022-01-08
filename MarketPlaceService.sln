@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.API", "MarketPlaceService.API\MarketPlaceService.API.csproj", "{8959116E-C7FC-4B75-90C6-DA8A16A415FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.BLL", "MarketPlaceService.BLL\MarketPlaceService.BLL.csproj", "{78142665-44FD-4A4F-AD23-66A4E5D47F32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.Configuration", "MarketPlaceService.Configuration\MarketPlaceService.Configuration.csproj", "{CF9C26DA-773A-43A9-8F46-A9091877F292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.DAL", "MarketPlaceService.DAL.MySql\MarketPlaceService.DAL.csproj", "{0925FA2E-E618-4F29-8D05-0FD42B2DD370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C5389F2E-BD87-4B1F-AB55-C17F17E6C49F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.BLL.Tests", "MarketPlaceService.BLL.Tests\MarketPlaceService.BLL.Tests.csproj", "{E517C355-B513-42F4-8D61-D5B00331AF5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbUp", "DbUp", "{06564EAD-E8CD-4A25-A1C3-0EAB9FB49B25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.DbUp.MySql", "MarketPlaceService.DbUp.MySql\MarketPlaceService.DbUp.MySql.csproj", "{E4B55436-56A2-4C81-85D5-B857F0A52B31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.Entities", "MarketPlaceService.Entities\MarketPlaceService.Entities.csproj", "{1F56AFBD-1B78-41DA-B3B5-FD231C2BC5B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlaceService.Utilities", "MarketPlaceService.Utilities\MarketPlaceService.Utilities.csproj", "{82DE54C6-8B37-4366-82C4-A9411CE622E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonUtilities", "..\Common\CommonUtilities\CommonUtilities.csproj", "{1E13206A-857B-4C46-84D8-8E10F43C5354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8959116E-C7FC-4B75-90C6-DA8A16A415FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8959116E-C7FC-4B75-90C6-DA8A16A415FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8959116E-C7FC-4B75-90C6-DA8A16A415FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8959116E-C7FC-4B75-90C6-DA8A16A415FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78142665-44FD-4A4F-AD23-66A4E5D47F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78142665-44FD-4A4F-AD23-66A4E5D47F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78142665-44FD-4A4F-AD23-66A4E5D47F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78142665-44FD-4A4F-AD23-66A4E5D47F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9C26DA-773A-43A9-8F46-A9091877F292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9C26DA-773A-43A9-8F46-A9091877F292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9C26DA-773A-43A9-8F46-A9091877F292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9C26DA-773A-43A9-8F46-A9091877F292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0925FA2E-E618-4F29-8D05-0FD42B2DD370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0925FA2E-E618-4F29-8D05-0FD42B2DD370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0925FA2E-E618-4F29-8D05-0FD42B2DD370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0925FA2E-E618-4F29-8D05-0FD42B2DD370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E517C355-B513-42F4-8D61-D5B00331AF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E517C355-B513-42F4-8D61-D5B00331AF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E517C355-B513-42F4-8D61-D5B00331AF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B55436-56A2-4C81-85D5-B857F0A52B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B55436-56A2-4C81-85D5-B857F0A52B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B55436-56A2-4C81-85D5-B857F0A52B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B55436-56A2-4C81-85D5-B857F0A52B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F56AFBD-1B78-41DA-B3B5-FD231C2BC5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F56AFBD-1B78-41DA-B3B5-FD231C2BC5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F56AFBD-1B78-41DA-B3B5-FD231C2BC5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F56AFBD-1B78-41DA-B3B5-FD231C2BC5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DE54C6-8B37-4366-82C4-A9411CE622E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DE54C6-8B37-4366-82C4-A9411CE622E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DE54C6-8B37-4366-82C4-A9411CE622E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DE54C6-8B37-4366-82C4-A9411CE622E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E13206A-857B-4C46-84D8-8E10F43C5354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E13206A-857B-4C46-84D8-8E10F43C5354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E13206A-857B-4C46-84D8-8E10F43C5354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E13206A-857B-4C46-84D8-8E10F43C5354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E517C355-B513-42F4-8D61-D5B00331AF5D} = {C5389F2E-BD87-4B1F-AB55-C17F17E6C49F}
+		{E4B55436-56A2-4C81-85D5-B857F0A52B31} = {06564EAD-E8CD-4A25-A1C3-0EAB9FB49B25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95580869-8BCD-4B91-BDB6-E1246ADB745B}
+	EndGlobalSection
+EndGlobal
